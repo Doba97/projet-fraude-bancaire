@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import random
 import requests
+import os
 
 # Configuration de la page
 st.set_page_config(page_title="Portail Client - Détection de Fraude Bancaire", layout="wide")
@@ -9,7 +10,9 @@ st.set_page_config(page_title="Portail Client - Détection de Fraude Bancaire", 
 # Charger les données
 @st.cache_data
 def load_data():
-    df = pd.read_csv("C:/doba/2/IA/projet deploiement/streamlit/bank.csv")
+    base_path = os.path.dirname(__file__)  # chemin du script app.py
+    csv_path = os.path.join(base_path, "bank.csv")
+    df = pd.read_csv(csv_path)
     return df
 
 data = load_data()
