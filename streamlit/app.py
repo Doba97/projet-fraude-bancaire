@@ -5,7 +5,6 @@ import requests
 
 # Configuration de la page
 st.set_page_config(page_title="Portail Client - Détection de Fraude Bancaire", layout="wide")
-#st.set_page_config(page_title="🔍 Détection de Fraude Bancaire", page_icon="💳")
 
 # Charger les données
 @st.cache_data
