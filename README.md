@@ -95,6 +95,7 @@ uvicorn app:app --reload
 ## Contributeurs
 
 - **SORO DOBA ISSIAKA** — Étudiant en Master Data Science
+- **KAMAGATE YOUSSOUF** — Étudiant en Master Data Science
 - Projet académique dans le cadre du cours « Technologies de l’IA »
 
 ---
