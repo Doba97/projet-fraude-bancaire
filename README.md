@@ -53,7 +53,19 @@ projet_fraude/
 ├── requirements.txt         # Dépendances Python
 └── README.md                # Documentation du projet
 ```
+🔗 Lien de l’application Streamlit (hébergée sur Hugging Face Spaces) :
+👉 https://projet-fraude-bancaire-wycymaf872xfdgnnvkchpt.streamlit.app/?transaction_id=T39255
 
+🔧 Comment utiliser l’application :
+Dans la barre latérale gauche, rendez-vous dans la section "🔍 Rechercher un client".
+
+Entrez un identifiant de transaction, par exemple T2, puis appuyez sur Entrée.
+
+Un bouton rouge apparaît pour vous permettre de lancer la prédiction.
+
+Vous verrez ensuite s’afficher la probabilité que le client soit frauduleux, ainsi que les détails associés à la transaction.
+
+Nous restons bien entendu à votre disposition pour toute remarque ou complément d’information.
 ## Installation
 
 Clonez le dépôt :
